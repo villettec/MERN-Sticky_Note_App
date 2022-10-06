@@ -1,0 +1,27 @@
+{
+  "name": "sticky_note_app-mern",
+  "version": "1.0.0",
+  "description": "This is a full stack application for notetaking using the MERN tech stack.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/villettec/Sticky_Note_App-MERN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/villettec/Sticky_Note_App-MERN/issues"
+  },
+  "homepage": "https://github.com/villettec/Sticky_Note_App-MERN#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
