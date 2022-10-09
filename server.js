@@ -3,7 +3,11 @@ const app = express();
 const path = require('path');
 const PORT = process.env.PORT || 3500
 
-app.use('/', express.static(path.join(__dirname, '/public')));
+// Middleware to allow use of json
+app.use(express.json())
+
+// Middleware telling server where to grab public files
+app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./routes/root'))
 
